@@ -1,1 +1,133 @@
+<!DOCTYPE html>
 
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="babokStudyGuide.css"
+    <title></title>
+</head>
+<body>
+    <h1>Interactive BABOK Study Guide</h1>
+    <div class="mainbody">
+        <script >
+            function hideMainContent() {
+                document.getElementById('contentMainGroup').style.display = 'none';
+            }
+            function showIntroduction() {
+                document.getElementById('Introduction').style.display = 'block';
+                
+            }
+        </script>
+        <div class="leftNavigation">
+            <button type="button"  onclick="showIntroduction()">Introduction</button>
+            <button type="button" onclick="document.getElementById('CommingSoon').style.display='block'">Business Analysis Key Concepts</button>
+            <button type="button" onclick="document.getElementById('CommingSoon').style.display='block'">Business Analysis Planning and Monitoring</button>
+            <button type="button" onclick="document.getElementById('CommingSoon').style.display='block'">Elicitation and Collaboration</button>
+            <button type="button" onclick="document.getElementById('CommingSoon').style.display='block'">Requirements Life Cycle Management</button>
+            <button type="button" onclick="document.getElementById('CommingSoon').style.display='block'">Strategy Analysis</button>
+            <button type="button" onclick="document.getElementById('CommingSoon').style.display='block'">Solution Evaluation</button>
+            <button type="button" onclick="document.getElementById('CommingSoon').style.display='block'">Underlying Competencies</button>
+            <button type="button" onclick="document.getElementById('CommingSoon').style.display='block'">Techniques</button>
+            <button type="button" onclick="document.getElementById('CommingSoon').style.display='block'">Perspectives</button>
+        </div>
+        <div class="mainContent">
+            <div class="contentViewer">
+                <!--Home-->
+                <div id="contentMainGroup" class="contentMainGroup">
+                    <h2>Home</h2>
+                    <hr />
+                    <h4>Business Analysis Planning and Monitoring</h4>
+                    <p>Describes the tasks that business analyst perform to organize and coordinate the efforts of business analysts and stake holders.</p><br />                
+                </div>
+                <!--Introduction-->
+                <div id="Introduction" style="display:none">
+                    <!--Knowledge Areas-->
+                    <div id="contentMainGroup" class="contentMainGroup">
+                        <h2>Knowledge Areas</h2>
+                        <hr />
+                        <h4>Business Analysis Planning and Monitoring</h4>
+                        <p>Describes the tasks that business analyst perform to organize and coordinate the efforts of business analysts and stake holders.</p><br />
+                        <h4>Elicitation and Collaboration</h4>
+                        <p>Describes the tasks that business analysts perform to prepare for and conducet elicitation activites and confirm the results obtained. It also describes the communication with stakeholders once the business analysis information is assembled and the ongoing collaboration with them throughout the business analysis activities.</p><br />
+                        <h4>Requirements Life Cycle Management</h4>
+                        <p>Describes the tasks that business analysts perform in order to manage and maintain requirements and design information from inception to retirement. These tasks describe establishing meaningful relationships between related requirements and designs, and assessing, analyzing and gaining consensu on proposed changes to requirements and design.</p><br />
+                        <h4>Strategy Analysis</h4>
+                        <p>Describes the business analysis work that must be performed to collaborate with stakeholders in order to identify a need of strategig or tactile importance (the business need), enable the enterprise to address that need, and align the resulting strategy for the change with higher- and lower-level strategies.</p><br />
+                        <h4>Requirements Analysis and Design Definition</h4>
+                        <p>Describes the tasks that business analysts perform to structure and organize requirements discovered during elicitation activities, specify and model requirements nd designs, validate and verify information, identify solution options that meet business needs, and estimate the potential value that could be realized for each solution option. This knowledge area covers the incremental iterative activities ranging from the initial concept to exploration of the need through the transformation of those needs into a particular recommended solution.</p><br />
+                        <h4>Solution Evaluation</h4>
+                        <p>Describes the tasks that business analysts perform to assess the performance of and value delivered by a solution in use by the enterprise, and to recommend removal of barriers or constraints that prevent the full realization of the value.</p><br />
+                    </div>
+                    <div class="contentSeparater"></div><br />
+                    <!--Tasks-->
+                    <div class="contentMainGroup">
+                        <h2>Tasks</h2>
+                        <hr />
+                        <p>Is a discrete piece of work that my be performed formally or informally as part of business analysis. The definition of a given task is universally applicable to business analysis efforts, independent of the initiative type. A business analyst may perform other activities as assigned by their organization, but these additional activities are not considered part of the business analysis profession.</p><br />
+                        <p>
+                            Tasks are grouped into knowledge areas. Business analysts perform tasks from all the knowledge areas sequentially, iteratively, or simalteaneiouly. The BABOK Guide does not perscribe a process or an order in which tasks are performed. Tasks may be performed in any order, as long as the necessary inputs to a task are present. A business analysis initiative may start with any task, although likely candidates are <em>Analyze Current State</em> or <em>Measure Solution Performance</em>.
+                        </p>
+                        <br />
+                        <div class="taskContainer">
+                            <div class="taskInnercontainer">
+                                <p>Purpose</p>
+                                <div class="taskInnerContainerContent">
+                                    The purpose section provides a short description of the reason for a business analyst to perform the task, and the value created through performing the task.
+                                </div>
+                            </div>
+                            <div class="taskInnercontainer">
+                                <p>Description</p>
+                                <div class="taskInnerContainerContent">
+                                    The Description section explains in greater detail what the task is, why it is performed, and what it should accomplish.
+                                </div>
+                            </div>
+                            <div class="taskInnercontainer">
+                                <p>Inputs</p>
+                                <div class="taskInnerContainerContent">
+                                    The inputs section lists the inputs for the task. Inputs are information consumed or transfrmed to produce an output, and represent the information necssary for a task to begin. They may be explicitly generated outside the scope of the business analysis or generated by a business analysis task. inputs that are generatedoutside of the business analysis efforts are identified with the qualifier '(external)' in the input list.
+                                </div>
+                            </div>
+                            <div class="taskInnercontainer">
+                                <p>Elements</p>
+                                <div class="taskInnerContainerContent">
+                                    The elements section describes the key concepts that are needed to understand how to perform the task. Elements are not mandatory as part of performing a task, and their usage might depend upon the business analysis approach.
+                                </div>
+                            </div>
+                            <div class="taskInnercontainer">
+                                <p>Guidelines/Tools</p>
+                                <div class="taskInnerContainerContent">
+                                    The Guidelines and Tools section list resources that are required to transform the unput into an putput. A guideline provides instructions or descriptions on why or how to undertake a task.<br />
+                                    Guidelines and tools can include outputs of other tasks.
+                                </div>
+                            </div>
+                            <div class="taskInnercontainer">
+                                <p>Techniques</p>
+                                <div class="taskInnerContainerContent">
+                                    The Techniques section lists the techniques that can be used to perform the business analysis task.
+                                </div>
+                            </div>
+                            <div class="taskInnercontainer">
+                                <p>Stakeholders</p>
+                                <div class="taskInnerContainerContent">
+                                    The Stakeholders section is composed of a generic list of stakeholders who are likely to participate in performing that task or who will be affected by it. The BABOK Guide does not mandate that these roles be filled for any givin initiative.
+                                </div>
+                            </div>
+                            <div class="taskInnercontainer">
+                                <p>Outputs</p>
+                                <div class="taskInnerContainerContent">
+                                    The Outputs section describes the results produced by performing the task. Outputs are created, transformed, or changed in state as a result of the successful completion of a task.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <div>
+        Copyright JayPhim, Inc. 2017
+    </div>
+</footer>
+</html>
