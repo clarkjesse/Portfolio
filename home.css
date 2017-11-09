@@ -1,1 +1,8 @@
+.navbar-brand {
+    font-family: Raleway;
+    text-transform: uppercase;
+}
 
+footer {
+    float: bottom;
+}
