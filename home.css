@@ -1,8 +1,11 @@
 .navbar-brand {
     font-family: Raleway;
     text-transform: uppercase;
+    letter-spacing: 2px;
 }
-
+.content {
+    margin: 0 7% 0 7%;
+}
 footer {
-    float: bottom;
+    text-align: center;
 }
