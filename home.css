@@ -1,3 +1,4 @@
+/*Navbar*/
 .navbar-brand {
     font-family: Raleway;
     text-transform: uppercase;
@@ -6,9 +7,17 @@
 .content {
     margin: 0 7% 0 7%;
 }
-footer {
-    text-align: center;
-}
 .projects {
     display: none;
+}
+/*Footer*/
+footer {
+    text-align: center;
+    font-size: 26px;
+}
+.footer-links a {
+    color: rgb(48, 52, 57);
+}
+.footer-links a:hover {
+    color: rgb(151, 153, 155);
 }
