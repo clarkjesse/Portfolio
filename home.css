@@ -57,3 +57,8 @@ article {
 .center-content {
  
 }
+::selection {
+    color: white;
+    background-color: orangered;
+}
+
