@@ -43,7 +43,10 @@ footer {
 }
 .alert {
     text-align: center;
+    transition: height 200ms;
+    
 }
+.alert
 article {
     display: inline-flex;
     border: 1px solid black;
